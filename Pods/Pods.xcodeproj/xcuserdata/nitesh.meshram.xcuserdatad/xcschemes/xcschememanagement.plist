@@ -4,42 +4,32 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AlecrimCoreData.xcscheme</key>
+		<key>AlecrimCoreData.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>BXProgressHUD.xcscheme</key>
+		<key>BXProgressHUD.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Bond.xcscheme</key>
+		<key>Bond.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>IQKeyboardManagerSwift.xcscheme</key>
+		<key>IQKeyboardManagerSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>JSQMessagesViewController.xcscheme</key>
+		<key>PinAuto.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>JSQSystemSoundPlayer.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>PinAuto.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-RNDApp.xcscheme</key>
+		<key>Pods-RNDApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -53,16 +43,6 @@
 			<true/>
 		</dict>
 		<key>1520003FEBEC114D6C84F832AFEDB994</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>1ED4DFAAD25E1999D0244868457A351E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>59CDDB315DD2B098E0CD9ED56B026F4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AF588C0314A9EE937367B0CE235D8FD6</key>
+		<key>E5A6FFB1B7F166541BD6DAACC59768E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
