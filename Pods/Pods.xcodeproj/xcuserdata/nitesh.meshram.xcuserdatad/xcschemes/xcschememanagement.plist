@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>JSQMessagesViewController.xcscheme</key>
+		<key>JSQMessagesViewController.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>JSQSystemSoundPlayer.xcscheme</key>
+		<key>JSQSystemSoundPlayer.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-RNDApp.xcscheme</key>
+		<key>Pods-RNDApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
