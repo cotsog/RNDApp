@@ -7,6 +7,11 @@ target 'RNDApp' do
 
     pod 'Firebase'
     pod 'JSQMessagesViewController'
-  # Pods for RNDApp
+
+    pod 'BXProgressHUD', '~> 1.0'
+    pod 'IQKeyboardManagerSwift', '~> 4.0'
+    pod 'Bond', '~> 4.3'
+    pod 'Alamofire', '~> 3.2'
+    pod 'AlecrimCoreData', '~> 4.1'
 
 end

@@ -1,4 +1,9 @@
 PODS:
+  - Alamofire (3.5.0)
+  - AlecrimCoreData (4.2.1)
+  - Bond (4.3.1)
+  - BXProgressHUD (1.8.0):
+    - PinAuto
   - Firebase (3.5.2):
     - Firebase/Core (= 3.5.2)
   - Firebase/Analytics (3.5.2):
@@ -16,24 +21,37 @@ PODS:
   - GoogleSymbolUtilities (1.1.1)
   - GoogleUtilities (1.3.1):
     - GoogleSymbolUtilities (~> 1.0)
+  - IQKeyboardManagerSwift (4.0.5)
   - JSQMessagesViewController (7.3.4):
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
+  - PinAuto (1.7)
 
 DEPENDENCIES:
+  - Alamofire (~> 3.2)
+  - AlecrimCoreData (~> 4.1)
+  - Bond (~> 4.3)
+  - BXProgressHUD (~> 1.0)
   - Firebase
+  - IQKeyboardManagerSwift (~> 4.0)
   - JSQMessagesViewController
 
 SPEC CHECKSUMS:
+  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  AlecrimCoreData: 4ed303b516446238663db44c129ebb7c5887b825
+  Bond: 55903fc67f09e8e49791a657163cabba1d6fb29d
+  BXProgressHUD: 4d0e29b7bd05c546ce803755c213addbb7423fdc
   Firebase: 94e63112efcad75226c0356a8f3032397b8547c9
   FirebaseAnalytics: d968d4d5f6aeb795cd64144337bcd233e530efc6
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
   GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
+  IQKeyboardManagerSwift: 41fd3a45a2cdb2a0e031af697708a95b865068a1
   JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  PinAuto: 648a843c526307c079c568667cd782b2aed1ee07
 
-PODFILE CHECKSUM: 8d3a37e1f3e284015ff3634924e0ee4238822c50
+PODFILE CHECKSUM: 0a68110753f9fe3dd63cd85f2becf7cda5dc27fd
 
 COCOAPODS: 1.0.1
