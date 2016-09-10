@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B5CBAE1D7FDE65000F29CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5CBAD1D7FDE65000F29CC /* AppDelegate.swift */; };
+		00B5CBB01D7FDE65000F29CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5CBAF1D7FDE65000F29CC /* ViewController.swift */; };
+		00B5CBB31D7FDE65000F29CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B5CBB11D7FDE65000F29CC /* Main.storyboard */; };
+		00B5CBB51D7FDE65000F29CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B5CBB41D7FDE65000F29CC /* Assets.xcassets */; };
+		00B5CBB81D7FDE65000F29CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B5CBB61D7FDE65000F29CC /* LaunchScreen.storyboard */; };
+		794AB71360E3C2E24E57F1D0 /* Pods_RNDApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D934BFEC294615F78B02393 /* Pods_RNDApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B5CBAA1D7FDE65000F29CC /* RNDApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNDApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B5CBAD1D7FDE65000F29CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00B5CBAF1D7FDE65000F29CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00B5CBB21D7FDE65000F29CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00B5CBB41D7FDE65000F29CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00B5CBB71D7FDE65000F29CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00B5CBB91D7FDE65000F29CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D934BFEC294615F78B02393 /* Pods_RNDApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNDApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C436A588A59813A727EF1434 /* Pods-RNDApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNDApp/Pods-RNDApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FA9F0B768476EF84230E4500 /* Pods-RNDApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNDApp/Pods-RNDApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B5CBA71D7FDE65000F29CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794AB71360E3C2E24E57F1D0 /* Pods_RNDApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B5CBA11D7FDE65000F29CC = {
+			isa = PBXGroup;
+			children = (
+				00B5CBAC1D7FDE65000F29CC /* RNDApp */,
+				00B5CBAB1D7FDE65000F29CC /* Products */,
+				98C5DA0ED0FC0570E2F71EAD /* Pods */,
+				5A526DA250CCEBD132C42E60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00B5CBAB1D7FDE65000F29CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B5CBAA1D7FDE65000F29CC /* RNDApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B5CBAC1D7FDE65000F29CC /* RNDApp */ = {
+			isa = PBXGroup;
+			children = (
+				00B5CBAD1D7FDE65000F29CC /* AppDelegate.swift */,
+				00B5CBAF1D7FDE65000F29CC /* ViewController.swift */,
+				00B5CBB11D7FDE65000F29CC /* Main.storyboard */,
+				00B5CBB41D7FDE65000F29CC /* Assets.xcassets */,
+				00B5CBB61D7FDE65000F29CC /* LaunchScreen.storyboard */,
+				00B5CBB91D7FDE65000F29CC /* Info.plist */,
+			);
+			path = RNDApp;
+			sourceTree = "<group>";
+		};
+		5A526DA250CCEBD132C42E60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D934BFEC294615F78B02393 /* Pods_RNDApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98C5DA0ED0FC0570E2F71EAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C436A588A59813A727EF1434 /* Pods-RNDApp.debug.xcconfig */,
+				FA9F0B768476EF84230E4500 /* Pods-RNDApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00B5CBA91D7FDE65000F29CC /* RNDApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B5CBBC1D7FDE65000F29CC /* Build configuration list for PBXNativeTarget "RNDApp" */;
+			buildPhases = (
+				0B418A2A0A5BB5168B9DC42E /* [CP] Check Pods Manifest.lock */,
+				00B5CBA61D7FDE65000F29CC /* Sources */,
+				00B5CBA71D7FDE65000F29CC /* Frameworks */,
+				00B5CBA81D7FDE65000F29CC /* Resources */,
+				94F89F5E9FB449EA2E6D4DE6 /* [CP] Embed Pods Frameworks */,
+				E44703A8AC2D11FEE7912094 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNDApp;
+			productName = RNDApp;
+			productReference = 00B5CBAA1D7FDE65000F29CC /* RNDApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B5CBA21D7FDE65000F29CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = V2Solutions;
+				TargetAttributes = {
+					00B5CBA91D7FDE65000F29CC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 00B5CBA51D7FDE65000F29CC /* Build configuration list for PBXProject "RNDApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00B5CBA11D7FDE65000F29CC;
+			productRefGroup = 00B5CBAB1D7FDE65000F29CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B5CBA91D7FDE65000F29CC /* RNDApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00B5CBA81D7FDE65000F29CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B5CBB81D7FDE65000F29CC /* LaunchScreen.storyboard in Resources */,
+				00B5CBB51D7FDE65000F29CC /* Assets.xcassets in Resources */,
+				00B5CBB31D7FDE65000F29CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B418A2A0A5BB5168B9DC42E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94F89F5E9FB449EA2E6D4DE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNDApp/Pods-RNDApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E44703A8AC2D11FEE7912094 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNDApp/Pods-RNDApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B5CBA61D7FDE65000F29CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B5CBB01D7FDE65000F29CC /* ViewController.swift in Sources */,
+				00B5CBAE1D7FDE65000F29CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00B5CBB11D7FDE65000F29CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B5CBB21D7FDE65000F29CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00B5CBB61D7FDE65000F29CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B5CBB71D7FDE65000F29CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00B5CBBA1D7FDE65000F29CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: V2Solutions, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: V2Solutions, Inc.";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "403873db-c9d5-4812-a15e-f30fd5184283";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00B5CBBB1D7FDE65000F29CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: V2Solutions, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: V2Solutions, Inc.";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "403873db-c9d5-4812-a15e-f30fd5184283";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00B5CBBD1D7FDE65000F29CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C436A588A59813A727EF1434 /* Pods-RNDApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: V2Solutions, Inc.";
+				INFOPLIST_FILE = RNDApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.RNDApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "403873db-c9d5-4812-a15e-f30fd5184283";
+			};
+			name = Debug;
+		};
+		00B5CBBE1D7FDE65000F29CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9F0B768476EF84230E4500 /* Pods-RNDApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: V2Solutions, Inc.";
+				INFOPLIST_FILE = RNDApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.RNDApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "403873db-c9d5-4812-a15e-f30fd5184283";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B5CBA51D7FDE65000F29CC /* Build configuration list for PBXProject "RNDApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B5CBBA1D7FDE65000F29CC /* Debug */,
+				00B5CBBB1D7FDE65000F29CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B5CBBC1D7FDE65000F29CC /* Build configuration list for PBXNativeTarget "RNDApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B5CBBD1D7FDE65000F29CC /* Debug */,
+				00B5CBBE1D7FDE65000F29CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00B5CBA21D7FDE65000F29CC /* Project object */;
+}
