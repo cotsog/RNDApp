@@ -1,5 +1,4 @@
 PODS:
-  - Alamofire (3.5.0)
   - AlecrimCoreData (4.2.1)
   - Bond (4.3.1)
   - BXProgressHUD (1.8.0):
@@ -28,7 +27,6 @@ PODS:
   - PinAuto (1.7)
 
 DEPENDENCIES:
-  - Alamofire (~> 3.2)
   - AlecrimCoreData (~> 4.1)
   - Bond (~> 4.3)
   - BXProgressHUD (~> 1.0)
@@ -37,7 +35,6 @@ DEPENDENCIES:
   - JSQMessagesViewController
 
 SPEC CHECKSUMS:
-  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
   AlecrimCoreData: 4ed303b516446238663db44c129ebb7c5887b825
   Bond: 55903fc67f09e8e49791a657163cabba1d6fb29d
   BXProgressHUD: 4d0e29b7bd05c546ce803755c213addbb7423fdc
@@ -52,6 +49,6 @@ SPEC CHECKSUMS:
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   PinAuto: 648a843c526307c079c568667cd782b2aed1ee07
 
-PODFILE CHECKSUM: 0a68110753f9fe3dd63cd85f2becf7cda5dc27fd
+PODFILE CHECKSUM: ed44db670471a4896d03eb003985f4d803d46e3d
 
 COCOAPODS: 1.0.1

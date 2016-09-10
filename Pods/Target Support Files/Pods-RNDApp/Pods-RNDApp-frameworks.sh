@@ -84,7 +84,6 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AlecrimCoreData/AlecrimCoreData.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BXProgressHUD/BXProgressHUD.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Bond/Bond.framework"
@@ -94,7 +93,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/PinAuto/PinAuto.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
   install_framework "$BUILT_PRODUCTS_DIR/AlecrimCoreData/AlecrimCoreData.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BXProgressHUD/BXProgressHUD.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Bond/Bond.framework"
