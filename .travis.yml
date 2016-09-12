@@ -8,4 +8,4 @@ install:
   - pod install
 
 script:
-  - set -o pipefail && xcodebuild -workspace RNDApp.xcworkspace -scheme RNDApp -sdk iphonesimulator build test | xcpretty
+  - xctool -workspace RNDApp.xcworkspace -scheme RNDApp -sdk iphonesimulator build test
