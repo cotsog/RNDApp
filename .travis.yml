@@ -6,4 +6,5 @@ xcode_scheme: RNDApp #4
 xcode_sdk: iphonesimulator9.2 #5
 
 install:
+  - pod repo update
   - pod install
