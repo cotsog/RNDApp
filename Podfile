@@ -7,6 +7,7 @@ target 'RNDApp' do
 
     pod 'Firebase'
     pod 'JSQMessagesViewController'
-#    pod 'BXProgressHUD', '~> 1.0'
+    pod 'BXProgressHUD', '~> 1.0'
 
+    pod 'AlecrimCoreData', '~> 4.1'
 end
