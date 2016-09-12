@@ -1,4 +1,6 @@
 PODS:
+  - BXProgressHUD (1.8.0):
+    - PinAuto
   - Firebase (3.5.2):
     - Firebase/Core (= 3.5.2)
   - Firebase/Analytics (3.5.2):
@@ -19,12 +21,15 @@ PODS:
   - JSQMessagesViewController (7.3.4):
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
+  - PinAuto (1.7)
 
 DEPENDENCIES:
+  - BXProgressHUD (~> 1.0)
   - Firebase
   - JSQMessagesViewController
 
 SPEC CHECKSUMS:
+  BXProgressHUD: 4d0e29b7bd05c546ce803755c213addbb7423fdc
   Firebase: 94e63112efcad75226c0356a8f3032397b8547c9
   FirebaseAnalytics: d968d4d5f6aeb795cd64144337bcd233e530efc6
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
@@ -33,7 +38,8 @@ SPEC CHECKSUMS:
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
   JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  PinAuto: 648a843c526307c079c568667cd782b2aed1ee07
 
-PODFILE CHECKSUM: 8d3a37e1f3e284015ff3634924e0ee4238822c50
+PODFILE CHECKSUM: d7e26369631b79ad8e2a6cf97e2cb9044ef34030
 
 COCOAPODS: 1.0.1
